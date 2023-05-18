@@ -1,10 +1,11 @@
 import React from 'react'
-import { Navbar } from './component/navbar/Navbar'
-import Sidebar from "./component/sidebar/Sidebar"
+import { Navbar } from '../component/navbar/Navbar'
+import Sidebar from "../component/sidebar/Sidebar"
 
-export const Page = () => {
+export const Homepage = () => {
   return (
     <div className='home'>
+        <br></br>
         <Navbar/>
         <div className='container-lg'>
         <div className='d-flex justify-content-between'>

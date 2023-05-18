@@ -1,14 +1,10 @@
 import './App.css';
-import { Page } from './Page';
-// import { Navbar } from './component/navbar/Navbar';
-// import  Sidebar  from './component/sidebar/Sidebar';
+import { Homepage } from './page/Homepage';
 
 function App() {
   return (
     <div>
-      <Page/>
-      {/* <Navbar/> */}
-      {/* <Sidebar/> */}
+      <Homepage/>
     </div>
   );
 }

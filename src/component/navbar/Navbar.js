@@ -10,7 +10,7 @@ export const Navbar = () => {
                 </button>
                 <div class="justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="">
-                        <button class="btn btn-outline-success" type="button">Contact us</button>
+                        <button class="btn" type="button">Contact us</button>
                         <button class="btn btn-light orange-btn" type="button">Signup</button>
                     </div>
                 </div>
