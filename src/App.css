@@ -35,7 +35,7 @@
 /* MEDIA QUERY */
 
 @media (max-width: 1445px) {
-    .side {
+    /* .side {
         height: 85vh;
         width: 30vw;
         margin-top: 2.5rem;
@@ -46,8 +46,8 @@
     }
     .padding {
         padding: 20px 40px;
-    }
-    .text-box {
+    } */
+    /* .text-box {
         padding: 10rem 0 0 3rem;
     }
     .text-box h1 {
@@ -56,7 +56,7 @@
     .text-box p {
         font-size: 1.7rem;
         padding: 1rem 0;
-    }
+    } */
 }
 @media(max-width:1128px) {
     .side {
@@ -132,7 +132,33 @@
 }
  }
  @media (max-width: 424px) { 
-    
+    .home .d-flex{
+        flex-direction: column;
+        /* height: 100vh; */
+       }
+       .side {
+        /* height: 85vh; */
+        width: 100%;
+        margin-top: 0rem;
+    }
+    .song-btn {
+        margin: 10px;
+        padding: 13px 50px;
+    }
+    .padding {
+        padding: 10px 20px;
+    }
+    .text-box {
+        padding: 3rem 0 ;
+        text-align: center;
+    }
+    .text-box h1 {
+        font-size: 1.7rem;
+    }
+    .text-box p {
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
  }
 
  @media (min-width: 250px) and (max-width: 424px) { 
