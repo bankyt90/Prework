@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.side {
+    background-color: #666666;
+    height: 70vh;
+    width: 25vw;
+    /* position: relative;
+    top: 10px;
+    left: 90px; */
+    text-align: center;
+}
+.song-btn {
+    margin: 10px;
+    padding: 10px 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.orange-btn {
+    background-color: #FF9900;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home {
+    background-color: #eeeeee;
+    height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.text-box {
+    padding: 10rem 0 0  3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* MEDIA QUERY */
+
+@media (max-width: 1445px) {
+    .side {
+        height: 85vh;
+        width: 30vw;
+        margin-top: 2.5rem;
+    }
+    .song-btn {
+        margin: 20px;
+        padding: 35px 70px;
+    }
+    .padding {
+        padding: 20px 40px;
+    }
+    .text-box {
+        padding: 10rem 0 0 3rem;
+    }
+    .text-box h1 {
+        font-size: 3.5rem;
+    }
+    .text-box p {
+        font-size: 1.7rem;
+        padding: 1rem 0;
+    }
 }
+@media(max-width:1128px) {
+    .side {
+        height: 85vh;
+        width: 35vw;
+        margin-top: 1.5rem;
+    }
+    .song-btn {
+        margin: 20px;
+        padding: 15px 40px;
+    }
+
+    .text-box {
+        padding: 9rem 0 0 3rem;
+    }
+    .text-box h1 {
+        font-size: 2.5rem;
+    }
+    .text-box p {
+        font-size: 1.2rem;
+        padding:  0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .side {
+        /* height: 70vh; */
+        width: 35vw;
+        margin-top: 1rem;
+    }
+    .song-btn {
+        margin: 12px;
+        padding:  10px 15px;
+    }
+
+    .text-box h1 {
+        font-size: 2rem;
+    }
+    .text-box p {
+        font-size: 1rem;
+        padding:  0;
+    } 
+    .padding {
+        padding: 9px 22px;
+    }
+ }
+ @media (min-width: 425px) and (max-width: 767px) { 
+   .home .d-flex{
+    flex-direction: column;
+    /* height: 100vh; */
+   }
+   .side {
+    /* height: 85vh; */
+    width: 100%;
+    margin-top: 0rem;
+}
+.song-btn {
+    margin: 10px;
+    padding: 13px 50px;
+}
+.padding {
+    padding: 10px 20px;
+}
+.text-box {
+    padding: 3rem 0 ;
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 1.7rem;
+}
+.text-box p {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+ }
+ @media (max-width: 424px) { 
+    
+ }
+
+ @media (min-width: 250px) and (max-width: 424px) { 
+    
+ }
